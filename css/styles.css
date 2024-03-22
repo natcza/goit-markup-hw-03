@@ -28,7 +28,7 @@ img {
 
 .header-container {
   border-bottom: 1px solid #e7e9fc;
-  margin: 24px 0;
+  padding: 24px 0;
 }
 
 .header-wrap {
@@ -46,6 +46,7 @@ img {
 .navigation {
   display: flex;
   align-items: center;
+  margin-right: auto;
 }
 
 .menu-nav {
@@ -62,6 +63,10 @@ span {
   color: #2e2f42;
 }
 
+.address {
+  font-style: normal;
+}
+
 .address-nav {
   display: flex;
   gap: 40px;
@@ -71,9 +76,8 @@ span {
 .link {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.5;
-  margin: 12px 10px;
   letter-spacing: 0.02em;
   text-align: center;
   text-decoration: none;
@@ -193,7 +197,6 @@ ul {
 }
 
 .list-header {
-  display: flex;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -220,7 +223,6 @@ ul {
 .list-p-third {
   font-size: 16px;
   line-height: 1.5;
-  text-align: center;
   margin: 0;
 }
 
@@ -315,5 +317,5 @@ ul {
   text-align: left;
   color: #f4f4fd;
   max-width: 264px;
-  height: 72px;
+  margin: 0;
 }
